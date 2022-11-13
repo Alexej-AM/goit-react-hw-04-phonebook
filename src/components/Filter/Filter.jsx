@@ -1,7 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
-export function Filter({ onChange, filter }) {
+export function Filter({ filter, onChange }) {
   return (
     <>
       <label htmlFor="">Find contacts by name</label>
@@ -10,7 +10,7 @@ export function Filter({ onChange, filter }) {
   );
 }
 
-Filter.propTypes = {
-  onChange: PropTypes.func.isRequired,
-  filter: PropTypes.string,
-};
+// Filter.propTypes = {
+//   onChange: PropTypes.func.isRequired,
+//   filter: PropTypes.string,
+// };

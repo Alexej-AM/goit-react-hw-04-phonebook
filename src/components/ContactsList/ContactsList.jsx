@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { DeleteButton, List } from './ContactListStyled';
 
 
@@ -15,7 +15,7 @@ export function ContactsList({ items, deleteContacts }) {
   return <ul>{elements}</ul>;
 }
 
-ContactsList.propTypes = {
-  items: PropTypes.array.isRequired,
-  deleteContacts: PropTypes.func.isRequired,
-};
+// ContactsList.propTypes = {
+//   items: PropTypes.array.isRequired,
+//   deleteContacts: PropTypes.func.isRequired,
+// };
